@@ -13,6 +13,14 @@
      if(/^\?fbclid=/.test(location.search))
      location.replace(location.href.replace(/\?fbclid.+/, ""));
      </script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-7FVYZSMMFN"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7FVYZSMMFN');
+      </script>
      <link rel="icon" href="emojis.png" type="image/x-icon">
    </head>
    <body>
