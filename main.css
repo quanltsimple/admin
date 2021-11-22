@@ -31,7 +31,7 @@ body,
 
 .donate-page-background {
   background-color: #f9f9f9;
-  background: url(background-g.jpeg);
+  background: url(background.jpeg);
   background-size: cover;
   filter: blur(1px);
   -webkit-filter: blur(1px);
